@@ -1,0 +1,193 @@
+/*Below are the styles applied to my webpage*/
+body {
+	background-color: #3B5E5E;
+	font-size: 1rem;
+}
+
+.background div {
+	width:50%;
+	margin:auto;
+	background-color: white;
+	color: black;
+	padding: 30px
+}
+h1 {
+	font-family: Georgia, serif;
+	text-align: center;
+	font-size: 2rem;
+}
+h2, h3 {
+    font-family: Georgia, verdana, sans-serif;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: verdana, sans-serif;
+    text-align: left;
+}
+
+ul, li {
+    font-family: verdana, sans-serif;
+    text-align: left;
+    list-style-type: none;
+}
+span {
+	color: #2F4F4F;
+}
+
+.about-me {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	border: 0.2rem solid #5F9EA0;
+	border-radius: 1rem;
+}
+
+.profile-pic {
+	flex: 0 0 15rem;
+}
+.profile-pic img{
+	flex: 0 0 13rem;
+	background-color: #FFFFFF;
+	position: relative;
+	left: 0;
+	width: 100%;
+	height: auto;
+	margin: 0rem;
+	padding: 0.5rem 1rem;
+	align-items: center;
+	gap: 1rem;
+	border: 0.2rem solid #5F9EA0;
+	border-radius: 1rem;
+}
+.my-bio {
+	flex: 1;
+	min-width: 0;
+	text-align: left;
+}
+.things {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 1rem;
+	border: 0.2rem solid #5F9EA0;
+	border-radius: 1rem;
+}
+.title {
+	border: 0.2rem solid #D2E4E4;
+	border-radius: 1rem;
+	background-color: #D2E4E4;
+}
+.passion-projects {
+	display: flex;
+	flex-direction: column;
+	background-color: #FFFFFF;
+	gap: 1rem;
+	border: 0.2rem solid #5F9EA0;
+	border-radius: 1rem;
+}
+
+.artwork {
+	background-color: #FFFFFF;
+	margin: 0rem;
+	padding: 2rem 1rem;
+	align-items: center;
+	gap: 1rem;
+	border: 0.2rem solid #5F9EA0;
+	border-radius: 1rem;
+}
+.artwork img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1rem;
+	width: 30%;
+	height: auto;
+
+}
+.alternate {
+	font-family: verdana, sans-serif;
+	text-align: center;
+	font-size: 1.5rem;
+}
+.alternate-content {
+	font-family: verdana, sans-serif;
+	text-align: center;
+}
+/* This section holds the mobile version of my webpage*/
+
+@media screen and (max-width: 600px) {
+
+    body {
+        font-size: 0.9rem;
+    }
+
+    .background div {
+        width: 90%;
+        padding: 15px;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    h2, h3 {
+        font-size: 1.2rem;
+    }
+
+    p, ul, li {
+        font-size: 0.9rem;
+    }
+
+    .about-me {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 10px;
+    }
+
+    .profile-pic {
+        flex: none;
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .profile-pic img {
+        display: block;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        padding: 0;
+    }
+
+    .my-bio {
+        width: 100%;
+        text-align: left;
+    }
+
+    .things {
+        gap: 0.5rem;
+        padding: 10px;
+    }
+
+    .title {
+        padding: 5px;
+    }
+
+    .passion-projects {
+        gap: 0.5rem;
+        padding: 10px;
+    }
+
+    .artwork {
+        padding: 10px;
+    }
+
+    .artwork img {
+        width: 80%;
+        height: auto;
+        box-sizing: border-box;
+    }
+}
